@@ -1,14 +1,14 @@
-/* ====Body-Styling==== */
+/* ====BODY-STYLING==== */
 
 body {
     margin: 0;
     padding: 0;
     width: 100%;
-    background-color: azure;
+    background-color: white;
 }
 
 
-/* ====Columns==== */
+/* ====COLUMNS AND IMAGES==== */
 
 #left-column {
     width: 50%;
@@ -16,6 +16,27 @@ body {
     background-color: lightskyblue;
     border: 5px solid darkblue;
     border-radius: 6px;
+}
+
+#left-column #bar p a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: lightskyblue;
+    font-size: 40px;
+    text-decoration: none;
+    margin-left: 250px;
+    left: 150px;
+    background-color: darkblue;
+    padding: 15px;
+}
+
+#left-column #bar p {
+    color: darkblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#left-column #bar p a:hover {
+    background-color: lightskyblue;
+    color: darkblue;
 }
 
 #right-column img {
